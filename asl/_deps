@@ -1,0 +1,4 @@
+TypesMgr.o: ../common/TypesMgr.cpp ../common/TypesMgr.h
+SymTable.o: ../common/SymTable.cpp ../common/TypesMgr.h \
+ ../common/SymTable.h
+code.o: ../common/code.cpp ../common/code.h
